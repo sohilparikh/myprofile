@@ -19,7 +19,7 @@ hbs.registerHelper('currentYear', () => {
 app.get('/', (req, res) => {
    // res.send('<h1>hello express</h1>')
    res.render('home.hbs', {
-     pageTitle: 'Home Page'
+     pageTitle: "Sohil Loves Meera but Meera don't"
    })
 });
 
